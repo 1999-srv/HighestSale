@@ -1,5 +1,6 @@
 # Highest Monthly Sales Calculation with SQL
 This set of SQL queries extracts, processes, and ranks sales data to determine the highest sales per month from the sales_order_detail table.
+
 **Overview**
 This SQL script performs the following steps:
 
