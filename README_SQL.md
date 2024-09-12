@@ -2,13 +2,11 @@
 This set of SQL queries extracts, processes, and ranks sales data to determine the highest sales per month from the sales_order_detail table.
 **Overview**
 This SQL script performs the following steps:
-Extracts the year and month from the ModifiedDate column.
 
-Groups the data by year and month to calculate the highest sales (LineTotal) per month.
-
-Uses a window function to rank and identify the top sale for each month.
-
-Displays the highest sale for each year and month, ordered chronologically.
+1)Extracts the year and month from the ModifiedDate column.
+2)Groups the data by year and month to calculate the highest sales (LineTotal) per month.
+3)Uses a window function to rank and identify the top sale for each month.
+4)Displays the highest sale for each year and month, ordered chronologically.
 
 **Step 1: Extract Year and Month** The first query extracts the year and month from the ModifiedDate column and creates a temporary view, sales_order_with_date.
 
